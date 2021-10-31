@@ -1,22 +1,27 @@
-import React from 'react'
+import React from 'react';
 
-import {Props} from '../../props/serverButtonProps'
+import {ServerButtonProps} from '../../props/serverButtonProps'
 
-import {Button} from './styles'
-import Logo from '../../assets/Logo.svg'
+import Logo from '../../assets/Logo.svg';
 
-export const ServerButton = ({selected,
+import { Button } from './styles';
+
+const ServerButton: React.FC<ServerButtonProps> = ({
+  selected,
   isHome,
   hasNotifications,
-  mentions}:Props) =>{
-return (<Button
-  isHome={isHome}
-  hasNotifications={hasNotifications}
-  mentions={mentions}
-  className={selected ? 'active' : ''}
->
-{isHome && <img src={Logo} alt="discord"/>}
-</Button>)
-}
+  mentions,
+}) => {
+  return (
+    <Button
+      isHome={isHome}
+      hasNotifications={hasNotifications}
+      mentions={mentions}
+      className={selected ? 'active' : ''}
+    >
+      {isHome && <img src={Logo} alt="Rocketseat" />}
+    </Button>
+  );
+};
 
-export default ServerButton
+export default ServerButton;

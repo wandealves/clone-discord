@@ -1,4 +1,4 @@
-export  interface Props {
+export  interface ServerButtonProps {
   selected?: boolean;
   isHome?: boolean;
   hasNotifications?: boolean;

@@ -1,12 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-import {Container, Title, ExpandIcon} from './styles'
+import { Container, Title, ExpandIcon } from './styles';
 
-const ServerName = () =>{
-return (<Container>
-  <Title>Servidor do Rodz</Title>
-  <ExpandIcon/>
-</Container>)
-}
+const ServerName: React.FC = () => {
+  return (
+    <Container>
+      <Title>Servidor do Rodz</Title>
 
-export default ServerName
+      <ExpandIcon />
+    </Container>
+  );
+};
+
+export default ServerName;
