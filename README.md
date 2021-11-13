@@ -9,18 +9,22 @@ yarn create react-app my-app --template=typescript
 ## Styled Components
 
 npm i styled-components
+
 ou
+
 yarn add styled-components
 
 npm i -D @types/styled-components
+
 ou
+
 yarn add -D @types/styled-components
 
 ## Styled Icons
 
 npm i style-icons
 
-# ou
+ou
 
 yarn add style-icons
 
