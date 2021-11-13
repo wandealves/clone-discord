@@ -56,4 +56,4 @@ A aplicação foi publicada pelo [Netlify](https://www.netlify.com/) e pode ser 
 
 # Discord Clone
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/wandealves/clone-discord/blob/main/public/images/pagina.png)
