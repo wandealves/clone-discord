@@ -1,9 +1,7 @@
 # Iniciar o Projeto
 
 npx create-react-app my-app --template=typescript
-
-# ou
-
+ou
 yarn create react-app my-app --template=typescript
 
 # Bibliotecas
@@ -11,15 +9,11 @@ yarn create react-app my-app --template=typescript
 ## Styled Components
 
 npm i styled-components
-
-# ou
-
+ou
 yarn add styled-components
 
 npm i -D @types/styled-components
-
-# ou
-
+ou
 yarn add -D @types/styled-components
 
 ## Styled Icons
