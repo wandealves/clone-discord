@@ -1,12 +1,17 @@
 import React from 'react';
 
-import {ServerButtonProps} from '../../props/serverButtonProps'
-
 import Logo from '../../assets/Logo.svg';
 
 import { Button } from './styles';
 
-const ServerButton: React.FC<ServerButtonProps> = ({
+export type Props = {
+  selected?: boolean;
+  isHome?: boolean;
+  hasNotifications?: boolean;
+  mentions?: number;
+}
+
+const ServerButton: React.FC<Props> = ({
   selected,
   isHome,
   hasNotifications,

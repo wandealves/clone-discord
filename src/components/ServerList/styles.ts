@@ -13,6 +13,7 @@ export const Container = styled.div`
   max-height: 100vh;
   overflow-y: scroll;
 
+  //não mostrar a barra do scrollbar
   ::-webkit-scrollbar {
     display: none;
   }

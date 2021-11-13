@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-import {ServerButtonProps} from '../../props/serverButtonProps'
+import {Props} from './'
 
-export const Button = styled.button<ServerButtonProps>`
+export const Button = styled.button<Props>`
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center;//Alinhado de forma vertical
+  justify-content: center;//Alinhado de forma horizontal
   flex-shrink: 0;
 
   width: 48px;
