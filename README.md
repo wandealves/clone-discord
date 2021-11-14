@@ -1,7 +1,9 @@
 # Iniciar o Projeto
 
-npx create-react-app my-app --template=typescript
+npx create-react-app my-app --template=typescript 
+
 ou
+
 yarn create react-app my-app --template=typescript
 
 # Bibliotecas
