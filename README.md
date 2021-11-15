@@ -52,7 +52,7 @@ Acesse [http://localhost:4000](http://localhost:3000) no navegador.
 
 # Publicação
 
-A aplicação foi publicada pelo [Netlify](https://www.netlify.com/) e pode ser acessado por [Aplicação publicada](https://cranky-pare-58274b.netlify.app/)
+A aplicação foi publicada pelo [Netlify](https://www.netlify.com/) e pode ser acessado por [Aplicação publicada](https://vigorous-jang-9b261b.netlify.app/)
 
 # Discord Clone
 
